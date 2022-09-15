@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> loops</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>we are about to perform loops exersice</p>
+        <p id="demo"></p>
+        <script>
+            var txt = "  ";
+           var tejas = {fname:"tejas" , lname:"parghi", age:"23"};
+           var x;
+           for (x in tejas) {
+               txt += tejas[x] + "  ";
+           }
+          
+            document.getElementById("demo").innerHTML = txt;
+        </script>
+    </body>
+</html>

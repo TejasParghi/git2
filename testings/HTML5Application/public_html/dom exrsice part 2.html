@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> date </title>
+    <div id="d1">
+    <h2> the date method exersice. </h2>
+    
+    <p> the result of the date method exersice is. </p>
+    <p id="p1"> <b> this is the bold sentence. </b></p>
+    <p id="demo"> chal hut</p>
+    </div>
+    <body>
+        <script>
+            var element;
+            document.getElementById("d1").onmouseenter = abc;
+            document.getElementById("d1").addEventListener("click",function(){
+                document.getElementById("demo").style.color = "orange";
+            });
+            document.getElementById("d1").addEventListener("click",function(){
+                document.getElementById("p1").style.color = "green";
+            });
+            document.getElementById("demo").removeEventListener('click',function(){
+                 document.getElementById("demo").style.color = "red";
+            });
+            function abc(){
+                document.getElementById("d1").style.color = "violet";
+            }
+            </script>
+    </body>
+</html>

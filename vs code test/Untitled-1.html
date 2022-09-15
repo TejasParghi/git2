@@ -1,0 +1,33 @@
+<html>
+
+<body>
+    <h1> hello </h1>
+    <code>this is a code</code>
+    <script>
+        function queue() {
+            collection = [];
+            this.print = function() {
+                console.log(collection);
+            };
+            this.enqueue = function(element) {
+                collection.push(element);
+            };
+            this.dequeue = function(element) {
+                collection.pop(element);
+            };
+            this.front = function() {
+                return collection[0];
+            };
+        }
+        let a = new queue;
+        a.enqueue(5);
+        a.enqueue(8);
+        a.enqueue(9);
+        a.dequeue();
+        console.log(a.front());
+
+        a.print();
+    </script>
+</body>
+
+</html>

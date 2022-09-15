@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<body>
+    <h2> the import export exersice</h2><br>
+    <code> the result of the exersice </code><br>
+    <script>
+        let a = {
+            information: function(city, country) {
+                return this.fname + "<br>" + this.lname + "," +
+                    city + " " + country;
+            }
+        }
+        let d1 = {
+            fname: "jaguar",
+            lname: "panther"
+        }
+        let d2 = {
+            fname: "cheetah",
+            lname: "big cat"
+        }
+        document.write(a.information.apply(d1, ["montreal", "canada"]));
+    </script>
+</body>

@@ -1,0 +1,34 @@
+<html>
+<head> the animation no-1</head>
+<style>
+body{
+background-color:powderblue;
+}
+div.animation{
+width:200px;
+height:100px;
+color:white;
+text-align:center;
+background-color:blue;
+border:3px dotted yellow;
+animation-duration:5s;
+animation-iteration:infinity;
+animation-delay:1s;
+animation-name:tejas;
+position:relative;
+margin:25px;
+}
+
+@keyframes tejas {
+0% {background-color:red; left:0px; top:0px; border:5px ridge yellow;}
+25% {background-color:purple; left:200px; top:0px;border:8px ridge white; transform:scalex(2); font-family:verdana; transform:rotate(-360deg);}
+50% {background-color:green; left:200px; top:200px;transform:rotate(-360deg);}
+75% {background-color:orange; left:0px; top:200px;}
+100% {background-color:hotpink; left:0px; top:0px;transform:skewX(120deg);}
+}
+</style>
+<body>
+<div class="animation"><b> animation
+</b></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> for loop.</title>
+    <h2> this is the first exercise for for loop. </h2>
+    <p> print the for loop result. </p>
+    <p id="demo"></p>
+    <script>
+            var a = "";
+            var i;
+            for (i = 2; i <= 30; i++) {
+                if(i===8) {continue;}
+                a += "the result of for loop is" + "  " + i + "<br>";
+               i++; 
+            }
+            document.getElementById("demo").innerHTML = a;
+        
+    </script>
+       
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+      <body>
+    <head>
+        <title>math exersice.</title>
+    <h1> this is the math exersice.</h1>
+    <p>kindly print this god damn math exersice</p>
+    <input id="age" value="18" />
+    <button onclick="myFunction()">click here </button>
+    
+    </head>
+  
+        <p id="demo"></p>
+        <script>
+            var x = (age < 18) ? "too young" : "old";
+            function myFunction() {
+                var age , votable;
+                age = document.getElementById("age").value;
+                votable = (age<18) ? "too young":"old enough";
+           document.getElementById("demo").innerHTML = votable + " to vote.";     
+                
+            }
+            
+            
+            
+        </script>
+    </body>
+</html>

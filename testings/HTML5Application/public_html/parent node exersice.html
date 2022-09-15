@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<body>
+<h1> this is the quick revision of today's work.</h1>
+<style>
+div{
+width:100px;
+padding:100px;
+height:100px;
+transition: width 5s,height 5s;
+background-color:powderblue;
+}
+div:hover{
+width:450px;
+height:400px;
+}
+img{
+width:100px;
+padding:100px;
+height:80px;
+float:left;
+position:top;
+transition: width 5s,height 5s;
+}
+img:hover{
+width:450px;
+height:400px;
+}
+</style>
+<div id="d1"> jay ho jay bharat jay hatkesh.</div>
+<div id="d2"></div>
+<script>
+    var a = document.createElement("p");
+    var b = document.createTextNode("this is the first p");
+    //var c = document.createComment("the first comment");
+    var c = document.getElementById("d1").appendChild(b);
+    console.log(a);
+    console.log(b);
+    //console.log(c);
+    a.appendChild(b);
+    var d = document.getElementById("d1");
+    d.insertBefore(a,b)
+</script>
+</body>
+</html>

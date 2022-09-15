@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>print 6</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2> this is the 3rd exersice of dom </h2>
+        <p> print this DOM </p>
+        <div id="content" style="border: 2px sienna;">
+            <h1> print the list </h1>
+            <div id="print" style="color: skyblue;">
+            <ul>
+                <li> home </li>
+                <li> about </li>
+                <li> back </li>
+                <li> forward </li>
+            </ul>
+            </div>
+        
+        <p id="demo"></p>
+        </div>
+        <script>
+            var element;
+         
+           element = document.querySelector("#print").style.color = "purple";
+           element = document.querySelector("#print").className = "abc";
+           element = document.querySelector("#print").classList;
+            console.log(element);
+             //var solden;
+            //solden = document.getElementById("content").getAttribute("id");
+            // console.log(solden);
+            </script>
+    </body>
+</html>

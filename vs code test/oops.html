@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1> objects and method with the use of constructor method</h1>
+
+<body>
+    <script>
+        let car = {
+            name: "mahindra",
+            model: "thar",
+            year: 2020,
+
+            getFullinfo: function() {
+                return (`the full detail of the car is
+     ${car.name} ${car.model} ${car.year} `)
+            }
+        }
+        Object.create(car);
+        let type = "off-road";
+
+        console.log(car.getFullinfo() + type);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<html>
+
+<body>
+    <h1>the first code</h1><br>
+    <code> the result is</code>
+    <script>
+        const a = [1, 2, -3, 6, 8, 3, 6, 8, 5, 3];
+        const sum = a.reduce((a, b) => {
+            return a + b;
+        }, -10);
+        console.log(sum);
+        const filtered = a.filter(function(value) {
+            return value >= 6;
+        });
+        console.table(filtered);
+        const b = filtered.map(n => "<li>" + n + "</li>")
+        console.table(b);
+        let c = {
+            startengine: function() {
+                return "the engine is started"
+            }
+        };
+        let d = {
+            startengine: function() {
+                "the engine is started"
+            }
+        };
+        console.log(c.startengine)
+    </script>
+</body>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   
+    <style>
+        #hello code {
+            text-align:center;
+            color:powderblue;
+            size:100;
+            background-color: aquamarine;
+          }
+    </style>
+     <body>
+    <h2> this is the local time string.</h2>
+    <p> print the time string.</p>
+    <p id="demo"></p>
+    <h1> kindly print this element </h1>
+    <div id="hello">
+    <button onclick="Abc()">press here!</button>
+   
+    <br>
+    <code> hello code. </code>
+    </div>
+        
+    <script>
+        function Abc(){
+            document.getElementById("demo").innerHTML = Date();     
+        }     
+    </script>
+    </body>
+</html>

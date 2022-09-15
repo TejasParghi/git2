@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> print 6 </title>
+    <h2> the dom exercise  </h2>
+    <style>
+        #d1{
+            width : 200px;
+            height : 200px;
+            background-color: aqua;
+        }
+    </style>
+    <body>
+         <div id="d1"></div>
+         <button onclick="stop()"> press </button>
+        <div id="p1">
+        <p> this is the first child element. </p>
+        <a> this is the second elemwnt </a> <br><br>
+        <code> the grand child element. </code>
+        <ul id="list" class="abc">
+            <li>mirage 2000</li>
+            <li>sukhoi 30 mki</li>
+            <li>rafael </li>
+            <li>Tejas mk1</li>
+        </ul>
+        <p> print this element. </p>
+        <ul id="list 2">
+            <li> mi 35 </li>
+            <li>sukhoi 30 mki</li>
+            <li> dhruv </li>
+            <li> apache </li>
+            <p id="demo"></p>
+        </ul>
+     </div>
+         <script>
+             var p = window.history;
+             var x = setTimeout(anime, 2000);
+             function anime(){
+                 var a = document.getElementById("d1");
+                 a.style.width = "500px";
+             }
+             function stop(){
+                 clearTimeout(x);
+             }
+             console.log(p);
+         </script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> print 8</title>
+    <body>
+        <p> first practice </p><br>
+        <code> print the code</code>
+        <div id="d1">
+            <button onclick="myFunction()"> button 1 </button> <br>
+            <button onclick="functionTwo()"> button 2 </button><br>
+            <button id="b2"> button 3 </button>
+            
+        </div>
+        <script>
+            var a;
+            function myFunction(){
+                a = setInterval(function(){
+                    console.log("hello");},4000
+                );
+            }
+            function functionTwo(){
+            a = clearTimeout(a);
+        }
+         document.getElementById("b2").addEventListener("click",x);
+        
+    function x(){
+            document.getElementById("b2").style.color = "orange";
+            console.log("button is pressed");
+        }
+        </script>
+    </body>
+</html>

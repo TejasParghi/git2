@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> print 6 </title>
+    <body>
+        <h2> this is an object exersice. </h2>
+        <p> the result of this object exersice is. </p>
+        <p id="demo"></p>
+        <script>
+            var a = {
+                fname: "tejas",
+                mname: "rajan",
+                lname: "parghi",
+                fullName : function(){
+                    return this.fname + "  " + this.mname + "  " + this.lname;
+                }
+            };
+            var z = myFunction(7,3);
+            function myFunction(x,y){
+                return x*y;
+            }
+            function toCelcius(farhenheit){
+                return (5/9)*(farhenheit-32);
+            }
+            document.getElementById("demo").innerHTML = toCelcius(43);
+            document.getElementById("demo").innerHTML = typeof"a";
+        </script>        
+    </body>
+</html>

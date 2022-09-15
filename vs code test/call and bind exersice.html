@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <h1>call and bind exersice</h1><br>
+    <code>the result of this exersice is </code><br>
+    <script>
+        var car = {
+            model: "WagonR1000",
+            manufacturer: "Maruti Suzuki",
+            fulldetails: function() {
+                return this.model + "  " + this.manufacturer;
+            }
+        }
+        var car2 = {
+            model: "swift1200",
+            manufacturer: "Maruti Suzuki"
+        }
+        var car3 = {
+            model: "Amaze1200",
+            manufacturer: "Honda"
+        }
+        document.write(car.fulldetails.call(car3));
+        document.write(car.fulldetails());
+    </script>
+</body>
+
+</html>

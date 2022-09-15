@@ -1,0 +1,53 @@
+2021-09-08.07:44:45,Application ID : 12829188
+2021-09-08.07:44:45,loging started : 
+2021-09-08.07:44:45,Login Success : 
+2021-09-08.07:44:45,Fetching DN Details started....
+2021-09-08.07:44:46,Fetching details successfully .....
+2021-09-08.07:44:51,Created listcontrol....
+2021-09-08.07:44:51,End
+2021-09-08.07:44:51,Loaded items in listcontrol successfully ....
+2021-09-08.07:44:51,PKCS11Manager::call to GetTokenListingName.....
+2021-09-08.07:44:51,PKCS11Manager::Create: Called load LoadLibrary....
+2021-09-08.07:44:53,PKCS11Manager::QuerySlots: Called
+2021-09-08.07:44:53,PKCS11Manager::Create: Called load LoadLibrary....
+2021-09-08.07:44:53,PKCS11Manager::QuerySlots: Called
+2021-09-08.07:44:53,PKCS11Manager::Create: Called load LoadLibrary....
+2021-09-08.07:44:53,PKCS11Manager::QuerySlots: Called
+2021-09-08.07:44:53,PKCS11Manager::QuerySlots: ADDING SLOT
+2021-09-08.07:44:53,PKCS11Manager::QuerySlots: Manufacturer 
+2021-09-08.07:44:53,PKCS11Manager::QuerySlots: Description 
+2021-09-08.07:44:53,Called ChangeButtonImage Function
+2021-09-08.07:45:03,PKCS11Manager::Create: Called load LoadLibrary....
+2021-09-08.07:45:03,PKCS11Manager::QuerySlots: Called
+2021-09-08.07:45:03,PKCS11Manager::QuerySlots: ADDING SLOT
+2021-09-08.07:45:03,PKCS11Manager::QuerySlots: Manufacturer 
+2021-09-08.07:45:03,PKCS11Manager::QuerySlots: Description 
+2021-09-08.07:45:03,PKCS11Slot::OpenSession: Session Opened 
+2021-09-08.07:45:03, - Login ...
+2021-09-08.07:45:03,Error::Method C_Login returned CKR_PIN_INCORRECT with error code [160]
+2021-09-08.07:45:50,PKCS11Manager::Create: Called load LoadLibrary....
+2021-09-08.07:45:50,PKCS11Manager::QuerySlots: Called
+2021-09-08.07:45:50,PKCS11Manager::QuerySlots: ADDING SLOT
+2021-09-08.07:45:50,PKCS11Manager::QuerySlots: Manufacturer 
+2021-09-08.07:45:50,PKCS11Manager::QuerySlots: Description 
+2021-09-08.07:45:50,PKCS11Slot::OpenSession: Session Opened 
+2021-09-08.07:45:50, - Login ...
+2021-09-08.07:45:50, -- Generate Key Pair -- 
+2021-09-08.07:45:50,PKCS11Slot::GenerateKeyPair: Called
+
+2021-09-08.07:45:54,checkCommonPublicKeyAttributes function called .. 
+
+2021-09-08.07:45:55,RSA_generate_key function called.. 
+
+2021-09-08.07:45:55,Calling webservice for Certificate generation
+2021-09-08.07:45:55,Windows 10~10.0
+2021-09-08.07:46:02,Certificate  dowloaded successfully!!!
+2021-09-08.07:46:02,Called createCertificateObjectX509....
+2021-09-08.07:46:02,start install  certificate in token....
+2021-09-08.07:46:02,Success to fetch public key from X509 certificate
+2021-09-08.07:46:02,Method::create::C_FindObjectsInit called....
+2021-09-08.07:46:04,Successfully install certificate in the token...
+2021-09-08.07:46:04,Calling webservice for download confirmation
+2021-09-08.07:46:05,Certificate repaired successfully!!!
+2021-09-08.07:46:05,GenerateKeyPair Success
+

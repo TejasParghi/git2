@@ -1,0 +1,4 @@
+deposite money= 360
+getting back = 226
+cash reserved = 600
+HSBC = 1100

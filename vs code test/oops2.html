@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class details {
+            constructor(company, model, type) {
+                this.company = company;
+                this.model = model;
+                this.type = type;
+            }
+            getDetails() {
+                return (` the full details are
+                ${this.company} ${this.model} ${this.type}`)
+            }
+        }
+        let type1 = new details("mahindra", "thar", "off-road");
+        let type2 = new details("jeep", "wrangler", "suv");
+        console.log(type2.getDetails());
+    </script>
+</body>
+
+</html>

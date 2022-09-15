@@ -1,0 +1,38 @@
+<html>
+<title> this exersice is for css multiple column.</title>
+<head>
+<style>
+body
+{
+background-color:indigo;
+}
+@media screen and (min-width:480px){
+body{
+background-color:lightgreen;
+}
+}
+:root{
+--border:5px ridge coral;
+--text-decoration:underline;
+}
+.newspaper{
+text-decoration:var(--text-decoration);
+border:var(--border);
+ padding: 20px; 
+  width: 300px;
+  resize: horizontal;
+  overflow: auto;
+color:white;
+column-count:3;
+column-gap:40px;
+column-rule-style:ridge;
+column-rule-width:5px;
+column-rule-color:powderblue;
+}
+</head>
+</style>
+<div class="newspaper">
+hello this the sample exercise for css multiple columns.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <body>
+    <title>the bom exersice.</title>
+    <h2> the bom exercise</h2>
+    <p> print the bom exersice </p>
+    <button><a href="https://www.google.com/">press here!</a></button>
+    <button onclick="myFunction()"> back!</button>
+    <button onclick="setTimeout(myFunction2, 1000);">Try it</button>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML =
+                   "the BOM of this browser of the window is " + history.forward("https://www.google.com/");
+    function myFunction(){
+        history.forward("https://www.google.com/")
+    } 
+     document.getElementById("demo").innerHTML = navigator.onLine; 
+     </script>
+     <script>
+     function myFunction2(){
+          alert('hello!');
+     }
+    
+     
+    </script>
+    </body>
+</html>

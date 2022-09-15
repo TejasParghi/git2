@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> this the the first object exersice</title>
+    <body>
+    <h1> keep it simple.</h1>
+    <p> this is the third exersic of javascript </p>
+        
+        <button onclick ="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+        <p id="demo"></p>
+        <script>
+            var person = { 
+                firstName: "john", 
+                lastName: "doe",
+                age:50, 
+                eyeColor: "blue",
+            fullName : function(){
+                return this.firstName + "  " + this.lastName + "  " + this.age;
+            }
+        };
+         document.getElementById("demo").innerHTML = person.fullName();    
+                
+       </script>
+    </body>
+</html>

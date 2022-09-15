@@ -1,0 +1,30 @@
+<html>
+
+<body>
+    <h2> second exersice of call and bind</h2><br>
+    <code> the result is</code><br>
+    <script>
+        const jets = {
+            fulldetails: function() {
+                return this.model + "  " + this.manufacturer
+            },
+            otherdetails: function() {
+                return this.enginetype + "  " + this.enginecount
+            }
+        }
+
+        const jet1 = {
+            model: "su30mki",
+            manufacturer: "Sukhoi",
+            enginetype: "supersonic",
+            enginecount: "2"
+        }
+        const jet2 = {
+            model: "Tejas",
+            manufacturer: "HAL",
+            enginetype: "subsonic",
+            enginecount: "1"
+        }
+        document.write(jets.otherdetails.call(jet1));
+    </script>
+</body>

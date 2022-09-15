@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> print 7 </title>
+    <div id="p1">
+    <p> callback function exersice </p> <br><br>
+    <code> call back </code>
+    <button onclick="X()"> press here </button><br><br>
+    <button onclick="Y()"> press </button>
+    <div id="d1"> 
+        <button id="b1"> event </button>
+    </div>
+   
+    
+</div>
+    <script>
+        var x;
+        var count = 0;
+        //var a = "this is tejas parghi";
+       // var b = "he is going to canada";
+       setTimeout(function(){
+           console.log("hello");},5000
+       );
+       function X(){
+           
+       }
+       X(function Y(){
+            
+       });
+       x = document.getElementById("b1").addEventListener("click",function(){
+           document.getElementById("b1").style.color = "crimson";
+           console.log("button clicked" + "  " + ++count);
+       });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <body>
+    <h2> kindly print everything in h2 font</h2>
+    <p> this is the exersice no 1</p>
+    <button onclick="myFunction()"> please click here.</button>
+    <p id="demo"></p>
+  
+        <script>
+            function myFunction() {
+            var a = new Date().getHours(); 
+            var greetings;
+                if (a<=12) {
+                    greetings = "it's half day";
+                }                 
+        else if (a>12){
+                    greetings = "half day is already gone";
+                } 
+                else {
+                    greetings = "some times are still left";
+                }            
+            document.getElementById("demo").innerHTML = greetings;
+        }
+        </script>
+        
+    </body>
+</html>

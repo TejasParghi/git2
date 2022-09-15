@@ -1,0 +1,107 @@
+<html>
+<body>
+<style>
+button{
+text-align:center;
+background-color:green;
+border-radius:15px;
+color:hotpink;
+padding:15px 32px;
+height:30px;
+margin:auto;
+font-size:20px;
+disply:inline-block;
+float:left;
+}
+button:hover{
+color:yellow;
+opacity:0.8;
+background-color:blue;
+box-shadow:0 12px 16px red;
+transition:width 5s,height 5s;
+padding:25px 42px;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a{
+  color: red;
+  background-color:yellow;
+display:inline-block;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+ border-radius:20px;
+}
+.pagination a:hover{
+ color:yellow;
+  background-color:red;
+transition:background-color.5s;
+}
+.pagination a:hover:first-child{
+ color:red;
+  background-color:green;
+transition:background-color.5s;
+}
+.pagination a:hover:last-child{
+ color:red;
+  background-color:green;
+transition:background-color.5s;
+}
+.pagination a:first-child{
+border-radius:2px;
+ color: blue;
+background-color:yellow;
+}
+.pagination a:last-child{
+border-radius:2px;
+ color: blue;
+background-color:yellow;
+}
+ul.breadcrumb{
+padding:10px 18px;
+list-style:none;
+background-color:dodgeblue;
+}
+ul.breadcrumb li{
+display:inline;
+font-size:18px;
+}
+ul.breadcrumb li+li:before{
+padding:10px;
+color:slate blue;
+content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: red;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: yellow;
+  text-decoration: underline;
+font-size:16px;
+font-family:verdana;
+background-color:indigo;
+}
+</style>
+<button>click here you morron.</button>
+<div class="pagination">
+<a href="https://www.google.com/">&laquo</a>
+<a href="https://www.google.com/">1</a>
+<a href="https://www.google.com/">2</a>
+<a href="https://www.google.com/">3</a>
+<a href="https://www.google.com/">4</a>
+<a href="https://www.google.com/">5</a>
+<a href="https://www.google.com/">6</a>
+<a href="https://www.google.com/">7</a>
+<a href="https://www.google.com/">8</a>
+<a href="https://www.google.com/">&raquo</a>
+</div>
+<ul class="breadcrumb">
+<li> <a href="https://www.google.com">home</a></li>
+<li> <a href="https://www.google.com">pic</a></li>
+<li> <a href="https://www.google.com">image</a></li>
+</ul>
+</body>
+</html>

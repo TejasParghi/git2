@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<aside> hello this is </aside>
+
+<body>
+    <script>
+        let cars = {
+            name: "hyundai",
+            type: "sedan",
+            model: "verna",
+            year: 2020,
+            details: function() {
+                return ` the 
+            full detail of car is ${this.name} ${this.type} 
+            ${this.year} ${this.price}`
+            }
+        }
+        let cars2 = Object.create(cars);
+        cars2.price = 1200000;
+        console.log(cars2.details());
+    </script>
+</body>
+
+</html>

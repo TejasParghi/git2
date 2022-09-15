@@ -1,0 +1,25 @@
+<html>
+
+<body>
+    <h1>the call exersice</h1><br>
+    <code>the code starts here </code> <br>
+    <h2> the result of the code is </h2> <br>
+    <script>
+        const info = {
+            fulldetails: function() {
+                return this.model + "  " + this.capasity
+            }
+        }
+        const jet1 = {
+            model: "sukhoi",
+            capasity: "2"
+        }
+        const jet2 = {
+            model: "jaguar",
+            capasity: "1"
+        }
+        document.write(info.fulldetails.call(jet2));
+    </script>
+</body>
+
+</html>

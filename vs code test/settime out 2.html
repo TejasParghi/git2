@@ -1,0 +1,35 @@
+<html>
+
+<body>
+    <code> hello good morning</code><br>
+    <h2>closure exersice</h2>
+    <script>
+        document.write("set time out exersice");
+        setTimeout(function() {
+            document.write("settimeout function");
+
+        }, 3000);
+        getname();
+        console.log(x);
+
+        var x = 7;
+
+        function getname() {
+            console.log("hello");
+        }
+
+        function myFunction() {
+            return function xyz() {
+                console.log("heys");
+            }
+        }
+        var arr1 = [10, 20, 30, 40, 50];
+        var arr2 = [60, 70, 80, 90, 100];
+        var arr3 = [0, ...arr1, ...arr2];
+        var arr4 = [arr1, arr2];
+        var arr5 = 'hello ${arr3}';
+        console.log("hello '${arr2}'");
+    </script>
+</body>
+
+</html>

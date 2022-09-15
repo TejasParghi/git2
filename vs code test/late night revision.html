@@ -1,0 +1,19 @@
+<html>
+
+<body>
+    <h2> print the code here</h2><br>
+    <code>the result of the code is</code><br>
+    <h1>call back function</h1><br>
+    <script>
+        function Fone(Ftwo) {
+            document.write("hello");
+            Ftwo();
+        }
+        Fone(function Ftwo() {
+            document.write("parghi");
+        });
+        setTimeout(function() {
+            document.write("tejas");
+        }, 3000);
+    </script>
+</body>

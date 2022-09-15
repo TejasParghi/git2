@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<p id="demo"></p>
+
+<body>
+    <script>
+        const arr1 = [1, 2, 3, 4, 5, 6, 7];
+        const arr2 = [4, 6, 7, 8, 2, 0];
+        const arr3 = [...arr1, ...arr2];
+        const e = Array.from("hello tejas");
+        const f = arr2.includes("5");
+
+        let b = async function() {
+            console.log("hello");
+        };
+
+
+        let sum = arr3.reduce((arr1, arr2) => {
+            return arr1 + arr2
+        }, 0);
+        const filtered = arr3.filter(function(value) {
+            return value >= 5;
+        });
+        const items = arr3.map(n => "<li>" + n + "</li>")
+        const html = items.join('');
+        const c = arr3.forEach(myOne);
+
+        function myOne(item, index) {
+            console.log(index + ":" + item);
+        }
+        async function myfunction() {
+            "hello"
+        }
+        myfunction().then(
+            function(value) {
+                myfunction(value)
+            },
+            function(error) {
+                myfunction(error)
+            }
+        );
+
+        console.table(html);
+        console.log(filtered);
+        console.log(sum);
+        console.log(arr3);
+        console.log(b);
+        console.log(c);
+        console.log(e);
+        console.log(f);
+        console.log(myfunction());
+    </script>
+</body>
+
+</html>

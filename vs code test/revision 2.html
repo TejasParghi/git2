@@ -1,0 +1,19 @@
+<html>
+
+<body>
+    <h1> revision exersice</h1><br>
+    <code> callback exersice</code><br>
+    <h2> the result is</h2><br>
+    <script>
+        function x(y) {
+            console.log("hello");
+            y();
+        }
+        x(function y() {
+            console.log("tejas");
+        });
+        setTimeout(function() {
+            console.log("parghi");
+        }, 3000);
+    </script>
+</body>

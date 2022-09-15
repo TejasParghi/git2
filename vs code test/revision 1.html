@@ -1,0 +1,28 @@
+<html>
+
+<body>
+    <h1>revision 1</h1><br>
+    <code> the first revsion</code><br>
+    <h2> first class function</h2>
+    <script>
+        function x(y) {
+            console.log("hello");
+            y();
+        }
+        x(function y() {
+            console.log("tejas");
+        });
+        setTimeout(function() {
+            console.log("parghi");
+        }, 3000);
+
+        var a = function myFunction(p1) {
+            return function xyz() {
+
+            }
+        }
+        console.log(a());
+    </script>
+</body>
+
+</html>

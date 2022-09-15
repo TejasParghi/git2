@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class school {
+            constructor(name, year, area) {
+                this.name = name;
+                this.year = year;
+                this.area = area;
+            }
+            getDetails() {
+                return (`the full details of school is 
+                ${this.name} - ${this.year} - ${this.area}`);
+            }
+        }
+
+        let school1 = new school("LPSV", 2004, "adajan pal");
+        let school2 = new school("BVS", 1990, "adajan");
+        let school3 = new school("SWG", 2000, "ved");
+        Object.create(school)
+        let success = 90 %
+
+            console.log(school3.getDetails() + success);
+    </script>
+</body>
+
+</html>

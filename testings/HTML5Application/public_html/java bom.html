@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> js bom </title>
+    <p id="demo"></p>
+    <code> this is the second exersice </code> <br><br>
+    <mark> mark the sentence </mark>
+    <body>
+        <div id="d1">
+            <button onmouseover="first()"> function 1 </button>
+            <ul id="list1">
+                 <li>mirage 2000</li>
+                <li> sukhoi 30 mki</li> 
+                <li>tejas mk1</li>
+                <li>rafael.</li>
+            </ul>
+             <ul id="list2">
+                   <li>js-17 thunder</li>
+                <li> f-16</li>
+                <li>mirage 2000</li>
+                <li>chengdu</li>
+            </ul>
+        <button onclick="press()"> press here! </button>
+        <button onclick="pressAgain()"> press to close! </button> <br>
+        <button onclick="press2()"> moveby </button> <br>
+        <button onclick="resize()"> resize </button>
+        </div>
+        <br>
+        <script>
+            var a = window.innerHeight;
+            var b = screen.availHeight;
+            var c = navigator.appName;
+            var f = location.pathname;
+            var h = document.getElementById("list1").firstElementChild;
+            var j = document.getElementById("list2").children[2];
+            var k = h.isEqualNode(j);
+            console.log(k);
+            console.log(history.length);
+            var p;
+            function press(){
+            var c = window.open("","","width=500px,height=200px,top=500px,left=100px");
+            c.document.write("<p> this is my window</p>");
+        }
+        function pressAgain(){
+            var d = window.close();
+        }
+        function press2(){
+            p.moveTo(200,200);
+            p.focus();
+        }
+        function resize(){
+            p.resizeTo(400,400);
+        }
+        var eventL;
+        document.getElementById("d1").addEventListener("click",function ABC()
+        {
+            document.getElementById("d1").style.color = "violet";
+        });
+        document.getElementById("d1").addEventListener("click",function(){
+            document.getElementById("d1").removeEventListener("click",ABC);
+        });
+        document.getElementById("d1").removeEventListener("click",The);
+        
+        function first(){
+            eventL = document.getElementById("d1").style.color = "crimson";
+        }  
+      
+            document.write(a);
+            document.write(location.hostname);
+            document.write(c);
+            document.write(d);
+            document.write(e);
+            console.log(a);
+            </script>
+    </body>
+</html>

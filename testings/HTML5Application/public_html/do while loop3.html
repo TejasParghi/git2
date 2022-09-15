@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title>today's exersice </title>
+    <body>
+        <h2> hello from tejas</h2>
+        <p> the print element.</p>
+        <p> do while loop.</p>
+        <button onclick="myFunction()"> press here! </button>
+        <p id="demo"></p>
+        <script>
+            function myFunction(){
+                var a = "";
+                var i = 1;
+                 while (i < 10){
+                    a += "<br> this the first exersice of do while loop." + "  " + i;
+                    i++;
+                }
+                 document.getElementById("demo").innerHTML = a;
+            }
+        </script>
+    
+    </body>
+</html>

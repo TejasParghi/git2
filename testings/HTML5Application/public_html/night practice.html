@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> set exersice </title>
+    <body>
+        <div id="demo">
+            <p> print the exersice. </p> <br>
+            <code> the result of the code is. </code><br>
+            <b> 29th december </b>
+            <button onclick="myFunction()">press here!</button> <br><br>
+            <button onclick="yourFunction()"> stop! </button>            
+        </div>    
+        <script>
+            var x;
+            function myFunction(){
+                x = setInterval(function(){
+                    document.write("hello");},3000
+                );
+            }
+            function yourFunction(){
+                x = clearTimeout(x);
+                }
+        </script>    
+    </body>
+</html>
